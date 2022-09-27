@@ -57,7 +57,7 @@ jobs:
   android:
     working_directory: ~/build
     docker:
-      - image: reactnativecommunity/react-native-android:3.2
+      - image: reactnativecommunity/react-native-android:5
     resource_class: "medium+"
     environment:
       - TERM: "dumb"
